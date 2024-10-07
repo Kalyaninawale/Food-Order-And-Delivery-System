@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+                        Navigation Bar
+                </title>
+                
+            <style>
+                 body{
+            margin:0;
+            background: #c0c0c0;
+            width: 1345px;
+            overflow-x: hidden;
+        }
+        .nav{
+            width: 100%;
+            background: #000033;
+            height: 100px;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute; 
+        }
+        ul li {
+            float: left;
+            margin-top: 30px;
+
+        }
+        ul li a{
+            width: 190px;
+            color:white;
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 20px;
+            font-family:century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+        
+        ul li ul{
+            background: #000033;
+        }
+        ul li ul li{
+            float: none;
+        }
+        ul li ul{
+            display: none;
+        }
+        ul li:hover ul{
+            display: block;
+        }
+        h2{
+            background: #000033; 
+            height: 80px;
+            color:white;
+            margin-top: 50px;
+            width:inherit;
+            text-align: center;
+            text-decoration-line: none;
+        }
+        * {box-sizing: border-box;}
+        .mini-footer{
+        background-color: #000033;
+         color:white;
+         height: 30px;
+        }
+
+
+        .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    
+}
+
+
+
+.card-single {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1px;
+}
+.column {
+    float: right;
+    width: 100px;
+    height: 120px;
+    box-sizing: border-box;
+    border: rgb(0, 0, 0);
+}
+
+
+        </style>
+            <body>
+                
+                <h1><h2><center><br><marquee>*****&nbsp;&nbsp; UNIQUE FOOD &nbsp;&nbsp;*****&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *****&nbsp;&nbsp; UNIQUE FOOD &nbsp;&nbsp;*****
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *****&nbsp;&nbsp; UNIQUE FOOD &nbsp;&nbsp;*****&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*****&nbsp;&nbsp; UNIQUE FOOD &nbsp;&nbsp;*****
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*****&nbsp;&nbsp; UNIQUE FOOD &nbsp;&nbsp;*****&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*****&nbsp;&nbsp;UNIQUE FOOD&nbsp;&nbsp;*****</marquee> </center><br></h2></h1>
+                <h3><center> "FOOD IS NOT RATIONAL.<br>FOOD IS CULTURE,HABIT,<br>CRAVING AND IDENTIFY"</center></h3>
+                <div class ="nav">
+                   <ul>
+              <li><a href="index.php">   HOME  </a></li>
+               
+                <li> <a href="contactus.php"> CONTACT US </a> </li>
+                <li> <a href="feedback.php"> FEEDBACK</a> </li>
+                <li> <a href="Donation.php"> DONATION </a> </li>
+                <li> <a href="index.php"> MENU </a></li>
+                <li> <a href="About.php"> ABOUT </a> </li>
+                 <li> <a href="Login.php"> ADMIN PAGE</a> </li>
+           
+            </ul>
+                </div>  
+            <h3><center>  For Donation First Register Your Mail ID At Login/Register Page </center>  </h3>
+            <h1><b>===========================================================================</b></h1> 
+            <h3><Center> OLD AGE HOMES </Center></h3>
+            <h4><a href="http://nisargcarecenter.org/donation.html">Nisarag Care Center</a></h4>
+            <h4><a href="http://manavsevacarecenter.com/donate.html ">Manavseva Care Center</a></h4>
+            
+            <h4><a href="http://swarnanagarioldagehomes.in/default.php"> Swarnanagari Old Age Homes</a></h4>
+            <h4><a href="https://www.panvelonline.in/city-guide/old-age-homes-in-panvel">Panvel Old-Age home</a></h4>
+
+            <h3><Center> ORPHANAGE </Center></h3>
+            <h4><a href="https://samagrafoundation.com/">Samagra Foundation</a></h4>
+            <h4><a href=" https://www.vrmvk.org/my-contribution-donation">Vivekananda Kendra</a></h4>
+            <h4><a href="http://anathbalkashramorphanage.org/">Anath Balakashram (Orphanage Org.) Under Ashirwad Seva Dham Trust</a></h4>
+
+            <h3><Center> Helpful Agencies </Center></h3>
+            <h4><a href="http://dayasagartrustnashik.com/"> Dayasagar Social & Educational Trust </a></h4>
+            <h4><a href=" https://maherashram.org/">Maher </a></h4>
+
+
+
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <span> <h1><a href="http://nisargcarecenter.org/donation.html">1. Nisarag Care Center</a>
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="column">  <img src="http://nisargcarecenter.org/img/nisarg_logo1.jpg" ></div></h1>
+                          <h3>Pathardi Shivar,<br> Dnyaneshwar Nagar,<br>Pathardi Phata, Nashik,<br>Maharashtra 422010</h3>
+                            
+                    </span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="http://manavsevacarecenter.com/donate.html ">2. Manavseva Care Center</a>
+                            &nbsp; <div class="column">  <img src="http://manavsevacarecenter.com/images/Manavseva%20care%20center%20logo.png" weidth="50px" height="80px" ></div></h1></span>
+                            Plot No: 8, Survey No: 327/1/1,<br> Pahtardi Shivar,<br> Nisarg Colony, Nashik, <br>Maharashtra 422010
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="http://swarnanagarioldagehomes.in/default.php">3.Swarnanagari Old Age Homes</a>
+                            &nbsp; <div class="column">  <img src="http://swarnanagarioldagehomes.in/images/about/1.jpg" weidth="50px" height="100px" ></div></h1></span>
+                            Row House No.8,Empire Estate,<br>Near Ranka Jwellers,<br>Old Mumbai Highway,<br>Chichwad,Pune-411 019.
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="https://visamovruddhashram.com/">4.Visamo Old Age Home</a>
+                            &nbsp; <div class="column">  <img src="https://visamovruddhashram.com/wp-content/uploads/2019/02/Visamo-Vruddhashram-Logo-300.png" weidth="50px" height="80px" ></div></h1></span>
+                            10th / 11th / 12th Floor, Hiranandani Fortune<br>City, Anthena, Survey No.30, Bhoka,<br> Navi Mumbai, Maharashtra 410206
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="https://pitashris.com/">5. Pitashri Old age home</a>
+                            &nbsp; <div class="column">  <img src="https://pitashris.com/wp-content/uploads/2018/04/Mulbhut-Adhikar-logo300.png" weidth="40px" height="60px" ></div></h1></span>
+                            Office No. B3, Ex-servicemen Complex,<br>below Rajiv Gandhi Bridge, Sector 1,<br>Nerul, Navi Mumbai,<br> Maharashtra 400706
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="http://www.bskba.com/">6. Ashraya Old Age Home</a>
+                            &nbsp; <div class="column">  <img src="https://www.bskba.com/wp-content/uploads/logo7.png" weidth="100px" height="110px" ></div></h1></span>
+                            Plot No. 92, Nerul East,<br> Sector 19, Nerul, Mumbai,<br> Maharashtra 400706
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="https://www.rajpaloldagehome.com/">7. Rajpal Old Age Home</a>
+                            &nbsp; <div class="column">  <img src="https://www.rajpaloldagehome.com/images/logo.png" weidth="100px" height="110px" ></div></h1></span>
+                            Rajpal Hospital, Plot no - 13,<br> Sector - 10 Opposite D Mart, Kopar Khairane,<br>Navi Mumbai, Maharashtra 400709
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="https://www.facebook.com/ramkrushnahari2015.16/">8. Ram Krushna hari Old Age Home</a>
+                            &nbsp; <div class="column">  <img src="https://lh5.googleusercontent.com/p/AF1QipM91TJxUgBxDv7xMSJYeW3uoT1ClbGNqa52Ym_B=w480-h240-k-no" weidth="50px" height="60px" ></div></h1></span>
+                            bendshil gaon, opposite<br> to sangopita,, Badlapur,<br> Maharashtra 421503
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="http://sweetoldagehome.org/contact-us/">9.Sweet Old Age Home</a>
+                            &nbsp; <div class="column">  <img src="http://sweetoldagehome.org/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2020-07-19-at-01.40.53-1-oso0yi743b3733gwixl16okexpwt0ck01wmsxqf7vk.jpeg" weidth="100px" height="110px" ></div></h1></span>
+                            Plot No, 51, Sector Number 1 Rd,<br> Sector 1, Kopar Khairane, Navi Mumbai,<br> Maharashtra 400709
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <span  class="las la-images"><h1><a href="http://sweetoldagehome.org/contact-us/">10.Krishnarao Vrudhashram </a>
+                            &nbsp; <div class="column">  <img src="https://tse3.mm.bing.net/th?id=OIP.zFp2Va7O1v1Zqod-unOO6QHaHa&pid=Api&P=0&w=300&h=300" weidth="100px" height="110px" ></div></h1></span>
+                            Meenatai Thakare Udyan, Near chinar Hotel<br> Badlapur​ ( East),Taluka - Ulhasnagar,<br> Maharashtra 421503
+                    </div>
+                </div>
+        </main>
+    </div>
+
+    <head><center>ORPHANAGE </center></head>
+
+        
+    <div class="cards">
+        <div class="card-single">
+            <div>
+                <span> <h1><a href="http://adharashram.org/">1. Adharashram</a>
+                    &nbsp;&nbsp;&nbsp; &nbsp;<div class="column">  <img src="https://lh5.googleusercontent.com/p/AF1QipN5TV7wPMJOpoOOcV27qNYvDkl5KUg1GExIWatn=w408-h306-k-no" weidth="120px" height="120px"></div></h1>
+                  <h3>491/6, Gharapure Ghat,<br> Nashik, Maharashtra 422002</h3>
+                    
+            </span>
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="http://manavsevacarecenter.com/donate.html ">2. Manavseva Care Center</a>
+                    &nbsp; <div class="column">  <img src="http://manavsevacarecenter.com/images/Manavseva%20care%20center%20logo.png" weidth="50px" height="80px" ></div></h1></span>
+                    Plot No: 8, Survey No: 327/1/1,<br> Pahtardi Shivar,<br> Nisarg Colony, Nashik, <br>Maharashtra 422010
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="http://swarnanagarioldagehomes.in/default.php">3.Swarnanagari Old Age Homes</a>
+                    &nbsp; <div class="column">  <img src="http://swarnanagarioldagehomes.in/images/about/1.jpg" weidth="50px" height="100px" ></div></h1></span>
+                    Row House No.8,Empire Estate,<br>Near Ranka Jwellers,<br>Old Mumbai Highway,<br>Chichwad,Pune-411 019.
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="https://visamovruddhashram.com/">4.Visamo Old Age Home</a>
+                    &nbsp; <div class="column">  <img src="https://visamovruddhashram.com/wp-content/uploads/2019/02/Visamo-Vruddhashram-Logo-300.png" weidth="50px" height="80px" ></div></h1></span>
+                    10th / 11th / 12th Floor, Hiranandani Fortune<br>City, Anthena, Survey No.30, Bhoka,<br> Navi Mumbai, Maharashtra 410206
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="https://pitashris.com/">5. Pitashri Old age home</a>
+                    &nbsp; <div class="column">  <img src="https://pitashris.com/wp-content/uploads/2018/04/Mulbhut-Adhikar-logo300.png" weidth="40px" height="60px" ></div></h1></span>
+                    Office No. B3, Ex-servicemen Complex,<br>below Rajiv Gandhi Bridge, Sector 1,<br>Nerul, Navi Mumbai,<br> Maharashtra 400706
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="http://www.bskba.com/">6. Ashraya Old Age Home</a>
+                    &nbsp; <div class="column">  <img src="https://www.bskba.com/wp-content/uploads/logo7.png" weidth="100px" height="110px" ></div></h1></span>
+                    Plot No. 92, Nerul East,<br> Sector 19, Nerul, Mumbai,<br> Maharashtra 400706
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="https://www.rajpaloldagehome.com/">7. Rajpal Old Age Home</a>
+                    &nbsp; <div class="column">  <img src="https://www.rajpaloldagehome.com/images/logo.png" weidth="100px" height="110px" ></div></h1></span>
+                    Rajpal Hospital, Plot no - 13,<br> Sector - 10 Opposite D Mart, Kopar Khairane,<br>Navi Mumbai, Maharashtra 400709
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="https://www.facebook.com/ramkrushnahari2015.16/">8. Ram Krushna hari Old Age Home</a>
+                    &nbsp; <div class="column">  <img src="https://lh5.googleusercontent.com/p/AF1QipM91TJxUgBxDv7xMSJYeW3uoT1ClbGNqa52Ym_B=w480-h240-k-no" weidth="50px" height="60px" ></div></h1></span>
+                    bendshil gaon, opposite<br> to sangopita,, Badlapur,<br> Maharashtra 421503
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="http://sweetoldagehome.org/contact-us/">9.Sweet Old Age Home</a>
+                    &nbsp; <div class="column">  <img src="http://sweetoldagehome.org/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2020-07-19-at-01.40.53-1-oso0yi743b3733gwixl16okexpwt0ck01wmsxqf7vk.jpeg" weidth="100px" height="110px" ></div></h1></span>
+                    Plot No, 51, Sector Number 1 Rd,<br> Sector 1, Kopar Khairane, Navi Mumbai,<br> Maharashtra 400709
+            </div>
+        </div>
+
+        <div class="card-single">
+            <div>
+                <span  class="las la-images"><h1><a href="http://sweetoldagehome.org/contact-us/">10.Krishnarao Vrudhashram </a>
+                    &nbsp; <div class="column">  <img src="https://tse3.mm.bing.net/th?id=OIP.zFp2Va7O1v1Zqod-unOO6QHaHa&pid=Api&P=0&w=300&h=300" weidth="100px" height="110px" ></div></h1></span>
+                    Meenatai Thakare Udyan, Near chinar Hotel<br> Badlapur​ ( East),Taluka - Ulhasnagar,<br> Maharashtra 421503
+            </div>
+        </div>
+    </main>
+    </div>
+
+            
+                <footer class="footer-area footer--light">
+                    <div class="mini-footer">
+                     <div class="container">
+                       <div class="row">
+                         <div class="col-md-12">
+                           <div>
+                             <p  class="copyright-text"><center><h3>© 2021  All rights reserved. ##Site Designed by @NAYAN  @KALYANI  @AKASH  @MONALI.  ##Site - Online Food Operating </h3>
+                             </center>  
+                             </p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                       </footer>
+            </body>
+        </head>
+</html>
